@@ -1,0 +1,2 @@
+# Ejecutar el script.py diariamente a las 23:00
+0 23 * * * python3 /app/script.py >> /var/log/cron.log 2>&1
